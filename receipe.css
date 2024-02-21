@@ -72,7 +72,29 @@ display: inline-block;
     }
 
     .container{
-        width: 70%;
+        width: 80%;
+    }
+
+    .container2{
+        padding: 0px 20px;
+    }
+
+    .last{
+        padding-left: 70%;
+    }
+
+    li{
+        padding-bottom: 5%;
+    }
+}
+
+@media(max-width: 350px){
+    .image{
+        border-radius: 0%;
+    }
+
+    .container{
+        width: 100%;
     }
 
     .container2{
